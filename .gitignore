@@ -1,0 +1,44 @@
+# Composer
+/vendor/
+composer.lock
+
+# Build artifacts
+/build/
+*.phar
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+/coverage/
+.phpunit.result.cache
+
+# PHP CS Fixer
+.php-cs-fixer.cache
+
+# PHPStan
+.phpstan/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+/tmp/
+/temp/
+
+# Generated systemd units (for testing)
+*.service
+*.timer
